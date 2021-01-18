@@ -1,10 +1,11 @@
 //配置路由相关信息
 import Vue from 'vue'
 import Router from 'vue-router'
-//@代表的是你的项目根路径
+//@代表的是你的项目src目录
 import Home from '@/components/Home'
 import Hello from '@/components/Hello'
 import HelloWorld from '@/components/HelloWorld'
+import Login from '../components/login'
 
 //通过vue.use(插件)安装插件
 Vue.use(Router)
@@ -28,6 +29,11 @@ export default new Router({
     {
       path: '/HelloWorld',
       component: HelloWorld
+    },
+    {
+      name: 'Login',
+      path: '/Login',
+      component: Login
     }
   ],
   mode: 'history'
