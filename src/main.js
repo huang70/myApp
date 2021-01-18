@@ -8,9 +8,9 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 //引入echarts
 import * as echarts from 'echarts';
-import 'echarts/map/js/china.js';
+// import 'echarts/map/js/china.js';
 //引入echarts主题
-import 'echarts/theme/macarons';
+// import 'echarts/theme/macarons';
 Vue.prototype.$echarts = echarts
 //使用插件
 Vue.use(ElementUI)

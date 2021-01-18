@@ -5,7 +5,7 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Hello from '@/components/Hello'
 import HelloWorld from '@/components/HelloWorld'
-import Login from '../components/login'
+import Login from '@/components/Login/Login'
 
 //通过vue.use(插件)安装插件
 Vue.use(Router)
