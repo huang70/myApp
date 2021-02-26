@@ -1,6 +1,6 @@
 .title{
-  text-align: left;
   color:white;
+  margin: 20px;
 }
 .just-con{
   justify-content: flex-end !important;
@@ -264,10 +264,8 @@ html:not(.layout-navbar-fixed) .layout-2 .layout-container {
     display: block;
   }
 
-  .layout-sidenav-100vh .layout-sidenav,
-  .layout-sidenav-100vh .layout-overlay {
-    height: 100vh !important;
-  }
+  // 
+  
 }
 @media (min-width: 0px) {
   .layout-1 .layout-navbar {
